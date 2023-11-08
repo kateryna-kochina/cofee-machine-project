@@ -6,7 +6,9 @@ This Python script represents a virtual coffee machine simulation. The program a
 ## Main Functionalities
 
 __1. Menu Display:__ The program displays a menu of coffee recipes along with their respective costs.
+
 __2. Order Placement:__ Users can choose a coffee recipe by typing the corresponding number (1, 2, or 3) from the menu.
+
 __3. Resource and Coin Management:__
   * The program checks if there are sufficient resources (water, milk, and coffee) to fulfill the order.
   * Users are prompted to insert coins of different values (quarters, dimes, nickels, and pennies) to pay for the selected coffee.
@@ -14,7 +16,9 @@ __3. Resource and Coin Management:__
   * If the inserted amount matches the cost, the coffee is prepared, resources are deducted, and the remaining balance is updated.
   * If the inserted amount is insufficient, the program prompts the user to insert more coins or refunds the inserted amount.
   * If the inserted amount exceeds the cost, the excess amount is returned as change, and the coffee is prepared.
+    
 __4. Reporting:__ Users can request a report that displays the current status of available resources (water, milk, coffee) and the machine's balance.
+
 __5. Shutdown:__ Users can type "off" to turn off the coffee machine simulation.
 
 
